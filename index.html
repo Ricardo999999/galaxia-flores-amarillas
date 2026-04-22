@@ -127,7 +127,7 @@ const sunTextMaterial = new THREE.SpriteMaterial({
 });
 const sunTextSprite = new THREE.Sprite(sunTextMaterial);
 sunTextSprite.scale.set(300, 75, 1);
-sunTextSprite.position.set(0, sunCoreRadius + 40, 0); // Posiciona encima del núcleo del sol
+sunTextSprite.position.set(0, sunCoreRadius, 0); // Posiciona encima del núcleo del sol
 scene.add(sunTextSprite); // Se añade a la escena, no a la galaxia, para que sea estático
 // ===== ELEMENTOS ORBITANTES (GIRASOLES Y FRASES) =====
 const loader = new THREE.TextureLoader();
